@@ -49,8 +49,8 @@ const OrderInfo = () => {
       <p>Created At: {new Date(order.createdAt).toLocaleString()}</p>
       <h4>Products:</h4>
       <ul>
-        {order.products.map((product) => (
-          <li key={product.productId._id}>
+        {order.products.map((product, index) => (
+          <li key={product.productId._id || index}>
             <h3>
               {product.productId.name} - Quantity: {product.quantity}
             </h3>
