@@ -1,0 +1,318 @@
+<svg id="home" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="4229" viewBox="0 0 1920 4229">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="bg" width="43" height="37" transform="translate(0 0.02)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <pattern id="pattern" width="1" height="1" viewBox="11.28 -74.357 602.44 725.845">
+      <image preserveAspectRatio="xMidYMid slice" width="625" height="647" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAKHBAMAAAAcaAMPAAAAG1BMVEXMzMyWlpa3t7eqqqqjo6OcnJyxsbHFxcW+vr5pfZwxAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAJO0lEQVR4nO3czW8bxxkHYFqiRB67tmXnaLopkGPYBOhVzBd6LIsk7VE81UczjdGrWQRI/+xyZ3Z2Z7mzMhMYqVd9nhO1pF5rfp6v/ZBmMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAONvF59ubb173Dv1wPPTli/dWLlhW1e9+XcUP1fW2Onqat/XjKvjTeyoXXT205JbbGNOz7tCPVeOuPXRZZZ4Nq9xXrrFLyV1Upz56T235be3Sj/9pOtK1rOs583OTG5ZrLKoHllzXmZ6kQ6uuSX9Lx67OTK5QLnvnQSW3637+F/FI3rCn6WOPzkxuWC45PLDkltnP33Swfd6mu1nh4HhyhXLJ5oEl96b+wb//efGHLpB13ddevf7Xx3mbDuclVyjXCHE9pOTWqYnHYXYTjtTd5uZt/eqnqhuuq7yh48kNyyVvHlhy9YIXJ6Tr9KJeRW/ju3UOzep6TOLbr5IvfkG5ZN0lt/yq53j8L++zTb+Ny64HbZrAjjPazevu3bv4ct1m+AvLNUKmxZ1w3QPf/vKf/H9t33WwQ9OwVTd4Ftu2OxyD+HXlGvPR5Pb37w8/VLvuP3zeJJZ3lmOKz+Or7cm0dXa5rtKmnNxmkoP1GEi7Blw3//f5BHXc/z5OH3x6+r3nleveORSTm+hgXWbr2jJu++tD7fuX7anA8JzgvHKNY45PHhWTezPNwXqdr2txH3GRnTh0XyzOal+hXOM4mT0vJ7ee5mCdV9n1kK+/+24WulmX0SLb5D3uf2u9NX6evtjE7UuhXOOYz10xueU0B2tYC9/2D83zjNrkLga71Xm2I75oXhfKRcu6TjG5eXXWBPrBWVWDzUZ/TUzvX2cdLAobtGaLd9WM0kK59gOPy8mtBoWnYT38H7/qNSVFcTlsdX1S0FyDWzXrcaFc+4HbcnLb/PLphGyGE38vuUVKbj6cx/dVttmLiRXKtWVeF5O7Pj29nYrCyXavfe08d9U/l6rVC+mT9tVHI+WCuLkpJbcfrDzTsKiGs8zlZ59118GXKblHw6vjdU+L68G+GbelcsEhHC8lN9E9SdgSHBuz/Hz77R+L5/PXqVvt6+mo/lx2O3CVTlJ3zVoxWm4TJrNCcovTKypTcRHWxHi36kkpuqs0cR17zYuL8LmnL9Kb82ZwLtL+ZKzcRey5heQupzrNXYdhto5XF0tz+yFNXMf+9Z9t/Fx7P6zuYvXCcJnOHMbKXcUqheSmOs2FNn/a3g+8HbxfX2WKjT0OyPbeTLsIrONYO6QhN1ZuF78oJDfVaS6eLa1TU4en9PN2y9Z+qMpOE/axs23SkBspt2imwWFyk53mQlM/6RIZrJ7rKp0mbPLkUqerR+fj7ALJSLl5k+IwuclOc6GpHw8TSX7sek4vudTaejDfZPctRsodmhuIw+T207zCNIvnm8dMnn7y+odNNfj/r4NJN03rl9Wznxf/3uS9qd6X3K3ajjlSbtsMyWFyu4metKZHHsItwhDTXe/dVTanheDqF4tN1pvq73++bTtOudx1tps+SW5bmCGmITY1dqt5dbLOhSdEmj3DIiWSn3Q1t2a7jlkut09JD5Kb6IX0WnhYpLlFWPeSfKILnSv1wmUXT3vGUGumvxf3lVunaXCQ3NVkF4jY1Gwiz/clq3aAzvq9I7sJ2zxtkppfLLdsgx4kd5jsAhGbett8USfSvfXPvDMdT0W//j69k92EbZ75SmEVy83beAbJrSe7QMSJ6W3zRe+OQDz5/Hvxu7IVMd65v72v3Kod56fJLarSecs0XPW2IttsQx9OtQrP+tb22clm+Fz6WKncYptPg73kLqqpnkHEpnZz27rbI8QHhe/K3zXPvqlXoVTusjcN9pKbV2c9q/JBmlf5tYpVO3juG6thX9LebaiXiPaLUrl9bxrsJbc/6+73hyldYYsO7cwf1tXRVi2zsNb5OlIqt+s68mlyu6leYprF9a9b3fYpuYv2VKBo0Q3A+HBrvtKelmuvTbXas4btdJfWcD7Qa2rsE6HLjf8WSXtDLD3blTZlpXLjyS0nvLSGztUNoDSawlbjvnHUJbeKYbweLzee3PX4GvThW542NYy7sLm4b9HrXQbJwiiVG0/uasJL68ltvjTPrd8xjLp5ru42T7sapXLjye2ne9Y6C+Ou19TbWew59+4WurX1+B3Vq6pbagvlxpPbTXhTEq51DPZz2bPpyeLly5fdwOqesNvV3aa+XvJ2tNx4cptJPsyf7PKrFbs4Yx+Gj9Use5N5+4RdvNG675Iulev093OjDwRMQy+lTew762GLFlV+8bZ9eDjeaL3sVuJSuU4/uXhbe7IeZetbc3NvUdosbPNWHlK08UZruF48Wq7/j2XJXVaTvZReyx9PvWifEx4ueb05aZ1ibG607toihXKZfnLzarpXSmb9IdM8QzIv7YJXJzeeP03fXH/0TTtjFcpl+sk9GvTJaam69q1i+x+VJu591sx5WkvTM67ZPZ1huUw/ucOkt3P5L83UlyBvZ6FFt4OP5TuVXVoGdmm8bdtch+Uy/eSmvZ2LnSnOYG+aHI4t+uJlrn7zutvuXqeltFsZVm2uw3KZfnKb6d6+CcItmLtZvJgZslmf7lzD5+puFa50hpuJt+lbY0pX7athuUw/uWrSG+HmusjNq/g4Q/qFuUJy4VTgm58X4XPdM6634c1l2/uG5TK95Ca+EZ71f1c6rJinwcXken86Is5P/bOuZmgOymV6yS2rSW+EZ72/4BJG16KcXO/wbX0kPbFZO7QxnJbL9ZK7qCZ8XTPqRme4LTqSXN6ZYiT5TYf+r1Ln5XK95CZ+ClFrn06Nd1fzP5uRJ5cdjw3uFtTebzKdlMv1kpv4KUSw6wUyllz82w+1v8avt1V2Rr/uelC/XK6X3FV1ekFgehbr0NI/v+tzP8VEvn/HKdO55R6Cxe+/u/nyH+/+XPibdK/eWzkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4v/JfewqEVWNHwbIAAAAASUVORK5CYII="/>
+    </pattern>
+    <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 270 295">
+      <image width="270" height="295" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAAEnBAMAAACqPLBoAAAAG1BMVEXMzMyWlpa3t7eqqqqcnJyjo6OxsbHFxcW+vr5ozvk/AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADKklEQVR4nO3Xu28TQRDA4Y1f55K17xyXORCizUlBovSJR9ocigRlXKS3IRGUNkRJ/mxmdvfWNoaGrAuk3yfFPjuj27mdfdkYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAg3pRv78ypme9lTHZWf7mDxHiZf1W/m+6LvI0bRq3cst8tZ1HKW9X+xH+Yizv/QPkkdV6z+OtPIb6NtqPMMZdXLV9lzaPrp083NvCdJ6rMtdWPmeVXexFmIEdy8XUmKOxxq6S5rHUSrgXNZdWykLbvtqPWNoTY9ZSmOVo/z5Ppa3Kk/pmM+3seqoXs/0Id9G1kss0fR6VPtvQXrgP/XwRUmimmRsjVbGJCBcrUx6nz6NxzxYev5SWOm4Azidmnmu/HG8iGm0+k46ZPztAHu7ZQn/UF1qBE+OGwY202Je/GFG75iXN+Sx9Hj+01czn4VLoujG7LOTTzKylUDEi9IcU6PQ6/5g+lTg9elIJ6QKdskdyWU9MM9qKcAXSgdJcyvLx6QB5lH650OHR5mH12y9x2miEjBlNaObXs3zxl5v9u45braUDtNWeNeG1b8/adcVFrDXDtfSHzV99r1LvL1LycM+hq84mD1ngi+2Ivh0t7q29yOy5ZpZ88t6F7vAV2dTFVG1bPiJz5WguzKNGNJPEacgufuIulvkmGx2nspCf7kTcSR7ndahHWaRNI2vaoV9OfKMr4+atDs7ZbsS1/fCt3XmWifO4iXu8XzjjOqb7/GQ3wuigOfEXrscSaoowAcPeFtd1yah2NYoRPs3wIXF/dMKS3iYQ9zkdHrf6VYx4rdWRtc7PqHKcNI9eXI/6occbt+/LXlKNhzphYkSlVVpPwghq0h5C1vF2vdDj7TnI7bXFVoQe1nST6WiPDWzaTbeaPqqFlqHNx58L+1IUPYbFiKVMm68uweJhWO0cpZ+u8cfjmTx3GHjtOVmX8a7uam3EwNp3VvtED/Q28bStYx7zdoEMvxtkuzV6KNuKCNvs4AA/X2xspWrHgf8d5TcQOZRtIoZn4djx8/K3X1oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgP/QLzg2hM12bE/kAAAAAElFTkSuQmCC"/>
+    </pattern>
+    <pattern id="pattern-10" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 369 310">
+      <image width="369" height="310" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXEAAAE2BAMAAABl9L9DAAAAG1BMVEXMzMyWlpa+vr6xsbGjo6OcnJzFxcWqqqq3t7eDwaptAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFMUlEQVR4nO2Zz2/bNhTHHdmWfRwbO+kxxoCux7roeo7WdNsx6tKiRwlo2h7jAW2vFdCg//b0fpBSnB5nacA+n0NMUnT05ePj4yM9mQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8X8melVfPU+XT+kXl5V/Kq7/vd//5ZdejT/6s/GH74ch3oeXGK0Vbfmvld732jg/SepqqdYilbdt+fGCtd7kWKWFd9SpPpJj12xN5qc1vYr2JyqfdN4ei0FeGc62YrgdSvO63J2bWuor1XVTeaPvDIRQ7S5NiE72w8lrKPqI9LY13j8YNrtznYn+KDklrxN+qx6Wp3YTwPL8N4UxHdPoo21l7RxFWj7K2x6VVF1F5W3j7/nZQd6nV2u2Lv05k7sVRSlmXM9WfWXsiN227OBXbqPxIzN0a/nIw4e27L03Rjf4VnRtpshG13nEnukxtDmqLLh9/DVF5E060fUBHL8yoOoClrby5qGjMfPPwU7/3zKTZAGp1bXuw0xEuevHy4JShkg+188KiyvT1K5HyxDQ+6PfWQYkT7Ssvxbe8fSD8XbXYdt5zU5+LrDXyPOjoxKOOrEeugnvKc/831nMQcg/Ntfl259RmxPb5sYQZsX+7iqva4rsJnV1cXLhy97M43iHI3DPVW5ree6P1RFLhy++47XZj31qnbvox9Y1/O2BYfG8CNYZsQ9VmXH/2Jal1Nzq8XTu4/L22LtNK9G4LDyrN/UTn0JRi7nYrl/TrlTVU8qHWFT+JIVOZp+jnyme+kJv9bOHgLHT6i7XlTV8nyc+X8kCj/axLVtT8hiufu/LNkFuR0O7+unmuNilX8bU2VWnb9vEmxcfM8gMlKddoObTyWbLzqkh509bmfa7S5q29i+jCRT8P21NeD69cpZRry7IkQLiJG5XWxsXHKVQXoefxrvzIt9r67pZ7aNTmn1WGZ1mXYkWxfOYpbxlepgOPKD+tfqz8aATlK5Whpm/E3G08Oa7E/jH9TX5Q9A8cSXn0lkGVt0nfTnPFELOs43RUCDtVPut7SP497Mfzkfx8ojpPxCc8y5IJsNPPaaGxMHqNc52cftzYImg67jHc9nYL7eelWbe4k3nn6fAzdjx3O/u+6YnfrXh/ZQsz7x2ahW109NH3ULNzEfpy8m/l1Vlmtl6EbvMRkm3Hy1sWX+xVmnHvQld2lmbM2mPLly/WnGLIeLliXFoqYdvLspypSSxCqVZ1f+ri9nj5uR8szbebmGWtes/PJxpa3llO5srqPW8Z4Uy08GnWnNDPRDr1FxdnJlGmfx5OMw0nfjqN5+vupmj4c2i070z2lnnciR6m2G7TIHcSO7sRONfuKf0a7+yfe8xoRO3UXrwVJy5MY+lpy43dsdS2YJdpRx31vuWNSTmJG8wy2MnuRNvFmabivnowmtnNYbO/h1qCNuwdVxPWT6uPhd2U663hTmXV6kbXOi41dy5pVjuqvx7l3+7lLTK4oe8V5345q7a0I5HKkivO6mO8bhT7y8HIr6m7C/QR73Izl2K3W92duUsRw3uWorPgY9s/zY1xf66/kiQpRWe4TRrEzLx6KhMw7Y3zjvIRfrNYqnF/t4pe/Xs+ULjftGOwmK/r71Znoorf7hIFscCwvxNNlp/C1dNY+VCsPnsx+xT+OLvf/Xu5fvGD5kn+7PWL6t9XBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8F/gH6Ppz9p0H6I0AAAAAElFTkSuQmCC"/>
+    </pattern>
+    <pattern id="pattern-12" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1920 368">
+      <image width="1920" height="368" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+    <clipPath id="clip-path-2">
+      <rect id="Add_your_image_here" data-name="Add your image here" width="1920" height="368" fill="#404040"/>
+    </clipPath>
+    <filter id="bg-2" x="366" y="3836" width="1188" height="230" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#dadada" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern-19" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 370 295">
+      <image width="370" height="295" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAAEnBAMAAABGSdV+AAAAG1BMVEXMzMyWlpa+vr6xsbGcnJyjo6PFxcWqqqq3t7eCcs9jAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFR0lEQVR4nO2ZwW/bNhSHFdmWfAwbp8nRLrZlx7hYhx2jIel2jLa12NHesiLHuijWHaOhG/pnj4+PFCk7wS41C2zfd4hohpZ+enx8fI8uCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4X1F+1Vx9fU9/9az5cbXbfXY5+zl0nzWzP/Yn7N+oNsbyevcfS9t9tNP7uYz+Xtu/SfvbPet7mBt5vJmtiqIzgRPbP3Kt863RpYndaXvpv3mXUXmrj7zeVq6fTrdGL3SAmwt9Zx2yya98anotA+VV089FSuNHSHebtD+B8rExP6y+bMxsS3ltvfnV+213se95NC+Xbl3Y9skX5UbXSJtf+cLN/ESeefZOeSsOcCDmtoa/GIy24+ZuPh6HtnV22y6aY/3uPJ/ypXh4UaXRZaFOL4LWW47uPy/kslZv79xlZ0Hsn1YneJkYtxHn3rhXqd1ijXQ6zHX79lgcrTKPcogd0Bh3WUTlI2e/RlzB+sJsMHqjfj81x317JEu0dDOUlcpLW5vD0LUWZwn9IqtRWTfW0H6G3Av1bXudbq2HDFRiPSe3f3QrYW7q+0Vepy6ztC+gMyHLokja59bw1zlVC6V35OgtpVtxI7/xL62siQvZTmHjgrdMhU6Htl9bx78nfdgzr/TxXf/osfON2gcL6S9d4KnFQ7zaStuFtq29J+b812b2JrN2R9PvIZ1beBMfLDpxg428jAuIT5643lJ8ydvfvteFfd0Psg+9zC+8jjGkca2xV+68aK2h5CIZftL7+VSUHxjd/uf5JDsqu/uHeDxVBx/7MOeU28A3L1NZbifyscX+89C+m/I8p2y3jceEw0sOyjXmNOZ64oONoLu/7r6S+ByGFDIZk4VJms36pXrg47vG+c48WiR7zWcuEVvoPHWivJO87bbJm597m//uP7S67oJyvdodvolxb6q2HbsUWMqLC2t/efXaZN6QJsk8l75x0HvLYeGrn5UfLuXfS9V5tJIs18rdqLE32dOX203IFUMcH/q5pN99SWp95XhV9LWHkaDzy59+9G7humcqn5v0XjKILSKp94NRX51qJXK8jDt/nXuJFtFaYS8dxHNfeTjE0n45a439vI0rYDu1zMGoz7Dm7jrYQ53NvWEX3leE92LyVRMrvuoTKPfWqnwyMshbClcgn/pxSWla/dVc3RVpKAxfz0D9TqfaSw6mH+SK7r99Hr99NFTGqJNVeViJ/pmT4MNpfi7dM2/ZJvpKEUZGD8npLcGf/TPX4UXSmshtl63LSUZmp4SQ7Ku+1ImYZowttfcKb7muD36DOtRuoBp8DhKjvnghI+ysnfZ3qTPG82ClidZGmz7CpbW/3e5XtbP+ItkkfUyRhGba14T5Di8qn7x2+sy0wIjnLWOrX09kNknV1qrjSDiv/CpoYx2+fxrnv1M9qapinBgnZ1xSO2tOkibprrfQvF3z+/re0+x90ZnZ09Vtq1F6GqPaKJ4rqrmlMLIyv/mg+EqpuHF/l8a8cVnu/KHnfHzGviZwh7ajGBuSs1x1cSmMwsGvkTeUM1NR+zi5y8kDT9kHQYxbeelhXDw/X2uv9ZxRqjzkinfJXbKeuixNrH3HSWyIv1m0GuTtIq5T5b6EO03usr1L7ZdpE88bDtLKQMRIeC59pmLX7GSgvGrFnebJXbZ/m9m39Lfm6uk9/dWzy/t+m0so35rv7sJdfjJXf39kZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8B/gHG3tYODwEiPAAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <pattern id="pattern-20" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 369 295">
+      <image width="369" height="295" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+  </defs>
+  <g id="Hero_bannar" data-name="Hero bannar">
+    <g id="Background" transform="translate(0 -40)">
+      <g id="Bg-3" data-name="Bg" transform="translate(0 140)">
+        <rect id="Bg-4" data-name="Bg" width="1920" height="647" fill="#f3f2f2"/>
+      </g>
+    </g>
+    <g id="Text" transform="translate(0 -114)">
+      <g id="Button" transform="translate(0 -9)">
+        <rect id="Bg-5" data-name="Bg" width="185" height="55" transform="translate(375 635)" fill="#fa3150"/>
+        <text id="Shop_Now" data-name="Shop Now" transform="translate(470.8 669)" fill="#fff" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.2em"><tspan x="-54.2" y="0">SHOP NOW</tspan></text>
+      </g>
+      <g id="Title">
+        <text id="Exclusive_Chair_gold_Collection._" data-name="Exclusive Chair 
+gold Collection. " transform="translate(372.538 503.827)" fill="#292929" font-size="60" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Exclusive Chair </tspan><tspan x="0" y="72">gold Collection. </tspan></text>
+      </g>
+      <text id="WELLCOME_TO_bmarketo_SHOP" data-name="WELLCOME TO bmarketo SHOP" transform="translate(375 414)" fill="#292929" font-size="18" font-family="Poppins-Regular, Poppins" letter-spacing="0.2em"><tspan x="0" y="0">WELLCOME TO BMARKETO SHOP</tspan></text>
+    </g>
+    <g id="Headers" transform="translate(0 -40)">
+      <g id="Headers_bottom" data-name="Headers bottom" transform="translate(0 40)">
+        <g id="header_button" data-name="header button">
+          <rect id="header_bg" data-name="header bg" width="1920" height="100" fill="#fff"/>
+        </g>
+        <g id="Hedar_text" data-name="Hedar text" transform="translate(621.137 40.804)">
+          <text id="Home_Products_Contact" data-name="Home         Products         Contact" transform="translate(769 15)" fill="#292929" font-size="15" font-family="Poppins-Regular, Poppins" letter-spacing="0.025em"><tspan x="-279.015" y="0" xml:space="preserve">HOME         PRODUCTS         CONTACT</tspan></text>
+        </g>
+      </g>
+      <g id="Headers_copy" data-name="Headers copy" transform="translate(352 81.98)">
+        <g id="Hedar_text-2" data-name="Hedar text" transform="translate(2 -12)">
+          <g id="Logo" transform="translate(-7 -6)">
+            <text id="bmerketo" transform="translate(60.465 36.02)" fill="#1a1a1a" font-size="27" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">bmerketo</tspan></text>
+            <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(21 8)" clip-path="url(#clip-path)">
+              <path id="Icon_simple-bigcartel" data-name="Icon simple-bigcartel" d="M14.217,17.332V16a2.021,2.021,0,0,1,1.167-2L25.715,7.5a2.185,2.185,0,0,0,1-2V0l-12.5,8L1.717,0V16.83a12.224,12.224,0,0,0,5.332,10.5l7,4.5,7-4.5c3.333-2,5.332-5.833,5.332-10.5v-7.5Z" transform="translate(6.84 5.52)"/>
+            </g>
+          </g>
+          <text id="Login" transform="translate(1104 25.02)" fill="#aeaeae" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Login</tspan></text>
+          <g id="Icon_feather-search" data-name="Icon feather-search" transform="translate(1070 12.02)">
+            <path id="Path_58" data-name="Path 58" d="M12.667,7.333A5.333,5.333,0,1,1,7.333,2,5.333,5.333,0,0,1,12.667,7.333Z" fill="none" stroke="#aeaeae" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333"/>
+            <path id="Path_59" data-name="Path 59" d="M14,14l-2.9-2.9" fill="none" stroke="#aeaeae" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <ellipse id="Round" cx="308" cy="69.5" rx="308" ry="69.5" transform="translate(960 581)" fill="#efefef"/>
+    <rect id="Add_your_image_here-2" data-name="Add your image here" width="537" height="647" transform="translate(1008 73)" fill="url(#pattern)"/>
+  </g>
+  <g id="Featured_Item" data-name="Featured Item" transform="translate(0 -113)">
+    <g id="Bg-6" data-name="Bg" transform="translate(0 50.2)">
+      <rect id="Bg_copy" data-name="Bg copy" width="1920" height="1120" transform="translate(0 809.8)" fill="#fff"/>
+    </g>
+    <g id="Bg-7" data-name="Bg" transform="translate(870.2 1061.617)">
+      <rect id="Bg_copy-2" data-name="Bg copy" width="186" height="47" transform="translate(-0.2 870.383)" fill="#fff" stroke="#292929" stroke-width="1"/>
+    </g>
+    <g id="Title-2" data-name="Title">
+      <text id="Best_Collection" data-name="Best Collection" transform="translate(960 976)" fill="#292929" font-size="48" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-181.848" y="0">Best Collection</tspan></text>
+      <text id="All_Bags_Dress_Decoration_Essentials_Interior_Laptop_Mobile_Beauty" data-name="All   ⁄   Bags   ⁄   Dress   ⁄   Decoration   ⁄   Essentials   ⁄   Interior   ⁄   Laptop   ⁄   Mobile   ⁄   Beauty" transform="translate(960 1039)" fill="#626262" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-345.285" y="0" xml:space="preserve">All   ⁄   Bags   ⁄   Dress   ⁄   Decoration   ⁄   Essentials   ⁄   Interior   ⁄   Laptop   ⁄   Mobile   ⁄   Beauty</tspan></text>
+      <rect id="Shape" width="98" height="1" transform="translate(911 996)" fill="#f8f8f8"/>
+    </g>
+    <g id="Items" transform="translate(0 -7)">
+      <g id="Item">
+        <rect id="Bg-8" data-name="Bg" width="270" height="295" transform="translate(375 1100)" fill="#f8f8f8"/>
+        <rect id="Add_your_image_here-3" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-2" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_30.00" data-name="$30.00" transform="translate(428 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52.88" y="0">$30.00</tspan></text>
+        <text id="Apple_watch_series" data-name="Apple watch series" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Apple watch series</tspan></text>
+      </g>
+      <g id="Item-2" data-name="Item" transform="translate(0 426)">
+        <rect id="Bg-9" data-name="Bg" width="270" height="295" transform="translate(375 1100)" fill="#f8f8f8"/>
+        <rect id="Add_your_image_here-4" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-3" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_120.00" data-name="$120.00" transform="translate(428 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins" text-decoration="line-through"><tspan x="-57.776" y="0">$120.00</tspan></text>
+        <text id="_80.00" data-name="$80.00" transform="translate(494 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-53.552" y="0">$80.00</tspan></text>
+        <text id="Gumshoes_black_fashion" data-name="Gumshoes black fashion" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Gumshoes black fashion</tspan></text>
+      </g>
+      <g id="Item-3" data-name="Item" transform="translate(300)">
+        <rect id="Add_your_image_here-5" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-4" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_30.00-2" data-name="$30.00" transform="translate(428 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52.88" y="0">$30.00</tspan></text>
+        <text id="Table_Lamp" data-name="Table Lamp" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Table Lamp</tspan></text>
+        <path id="Icon_material-add-shopping-cart" data-name="Icon material-add-shopping-cart" d="M11.94,9.7h2.238V6.345h3.357V4.107H14.179V.75H11.94V4.107H8.583V6.345H11.94ZM7.464,19.774A2.238,2.238,0,1,0,9.7,22.012,2.235,2.235,0,0,0,7.464,19.774Zm11.19,0a2.238,2.238,0,1,0,2.238,2.238A2.235,2.235,0,0,0,18.655,19.774Zm-11-3.637L7.688,16,8.7,14.179h8.337a2.227,2.227,0,0,0,1.958-1.153l4.32-7.845L21.363,4.107h-.011L20.121,6.345l-3.089,5.6H9.176l-.145-.3L6.524,6.345,5.461,4.107,4.409,1.869H.75V4.107H2.988L7.017,12.6,5.506,15.342a2.164,2.164,0,0,0-.28,1.074,2.245,2.245,0,0,0,2.238,2.238H20.893V16.417H7.934A.284.284,0,0,1,7.655,16.137Z" transform="translate(613.56 1433.25)"/>
+      </g>
+      <g id="Item-4" data-name="Item" transform="translate(300 426)">
+        <rect id="Add_your_image_here-6" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-5" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_30.00-3" data-name="$30.00" transform="translate(428 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52.88" y="0">$30.00</tspan></text>
+        <text id="Woman_white_dress" data-name="Woman white dress" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Woman white dress</tspan></text>
+      </g>
+      <g id="Item-5" data-name="Item" transform="translate(600)">
+        <rect id="Add_your_image_here-7" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-6" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_30.00-4" data-name="$30.00" transform="translate(428 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52.88" y="0">$30.00</tspan></text>
+        <text id="laptop_thinkpad_lenovo" data-name="laptop thinkpad lenovo" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">laptop thinkpad lenovo</tspan></text>
+      </g>
+      <g id="Item-6" data-name="Item" transform="translate(600 426)">
+        <rect id="Add_your_image_here-8" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-7" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_30.00-5" data-name="$30.00" transform="translate(428 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52.88" y="0">$30.00</tspan></text>
+        <text id="Kettle_water_boiler" data-name="Kettle water boiler" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Kettle water boiler</tspan></text>
+      </g>
+      <g id="Item-7" data-name="Item" transform="translate(900)">
+        <rect id="Add_your_image_here-9" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-8" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_30.00-6" data-name="$30.00" transform="translate(428 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52.88" y="0">$30.00</tspan></text>
+        <text id="Table_Lamp-2" data-name="Table Lamp" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Table Lamp</tspan></text>
+      </g>
+      <g id="Item-8" data-name="Item" transform="translate(900 426)">
+        <rect id="Add_your_image_here-10" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-9" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_30.00-7" data-name="$30.00" transform="translate(428 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52.88" y="0">$30.00</tspan></text>
+        <text id="Congee_cooking_rice_cooker" data-name="Congee cooking rice cooker" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Congee cooking rice cooker</tspan></text>
+      </g>
+    </g>
+    <text id="Load_more_" data-name="Load more " transform="translate(960 1961)" fill="#292929" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-47.208" y="0">LOAD MORE </tspan></text>
+    <path id="Icon_open-reload" data-name="Icon open-reload" d="M5,0A5,5,0,1,0,8.55,8.55l-.9-.9a3.753,3.753,0,1,1-2.663-6.4A3.636,3.636,0,0,1,7.6,2.388L6.237,3.75h3.75V0L8.5,1.488A4.972,4.972,0,0,0,4.987,0Z" transform="translate(1010.198 1950.5)" fill="#292929"/>
+  </g>
+  <g id="New_products_copy" data-name="New products copy" transform="translate(-137 -1793)">
+    <rect id="Bg-10" data-name="Bg" width="1920" height="590" transform="translate(137 3712)" fill="#faefef"/>
+    <g id="Right_side_bar" data-name="Right side bar" transform="translate(912 3792)">
+      <g id="Bg-11" data-name="Bg" fill="#fff" stroke="#e1e1e1" stroke-linejoin="round" stroke-width="1">
+        <rect width="370" height="430" stroke="none"/>
+        <rect x="0.5" y="0.5" width="369" height="429" fill="none"/>
+      </g>
+      <text id="UP_TO_SELL" data-name="UP TO SELL" transform="translate(185 95.037)" fill="#fa3150" font-size="18" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-47.16" y="0">UP TO SELL</tspan></text>
+      <text id="_50_OFF" data-name="50% OFF" transform="translate(184 165.284)" fill="#363636" font-size="48" font-family="PlayfairDisplay-Bold, Playfair Display" font-weight="700"><tspan x="-96.816" y="0">50% OFF</tspan></text>
+      <text id="Get_The_Best_Price" data-name="Get The Best Price" transform="translate(185 218.792)" fill="#363636" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-109.296" y="0">Get The Best Price</tspan></text>
+      <text id="Discover_More" data-name="Discover More" transform="translate(185 363.557)" fill="#363636" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-56.296" y="0">Discover More</tspan></text>
+      <text id="Get_the_best_daily_offer_et_accusam_et_justo_duo_dolores_et_ea_rebum._Stet_clita_kasd_gubergren_no_sea_taki" data-name="Get the best daily offer et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren no sea taki" transform="translate(47 246.376)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="5.317" y="15">Get the best daily offer et accusam et </tspan><tspan x="14.009" y="39">justo duo dolores et ea rebum. Stet </tspan><tspan x="25.368" y="63">clita kasd gubergren no sea taki</tspan></text>
+    </g>
+    <g id="Item-9" data-name="Item" transform="translate(513 3792)">
+      <rect id="Bg-12" data-name="Bg" width="369" height="430" fill="#fff" stroke="#e8e8e8" stroke-width="1"/>
+      <rect id="Bg-13" data-name="Bg" width="369" height="310" fill="#e8e8e8"/>
+      <rect id="Add_your_image_here-11" data-name="Add your image here" width="369" height="310" fill="url(#pattern-10)"/>
+      <rect id="Shape-10" data-name="Shape" width="369" height="1" transform="translate(0 374)" fill="#f8f8f8"/>
+      <text id="_50.00" data-name="$50.00" transform="translate(73 408)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins" text-decoration="line-through"><tspan x="-53.504" y="0">$50.00</tspan></text>
+      <text id="_30.00-8" data-name="$30.00" transform="translate(155.243 408)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52.88" y="0">$30.00</tspan></text>
+      <text id="Table_Lamp_-_scelerisque_tempore" data-name="Table Lamp - scelerisque tempore" transform="translate(20 348.814)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Table Lamp - scelerisque tempore</tspan></text>
+      <path id="Icon_material-add-shopping-cart-2" data-name="Icon material-add-shopping-cart" d="M10.036,8.179h1.857V5.393h2.786V3.536H11.893V.75H10.036V3.536H7.25V5.393h2.786ZM6.321,16.536a1.857,1.857,0,1,0,1.857,1.857A1.855,1.855,0,0,0,6.321,16.536Zm9.286,0a1.857,1.857,0,1,0,1.857,1.857A1.855,1.855,0,0,0,15.607,16.536ZM6.479,13.518l.028-.111.836-1.514h6.918a1.848,1.848,0,0,0,1.625-.956L19.47,4.427l-1.616-.891h-.009L16.824,5.393l-2.563,4.643H7.742l-.121-.251L5.541,5.393,4.659,3.536,3.786,1.679H.75V3.536H2.607L5.95,10.584,4.7,12.859a1.8,1.8,0,0,0-.232.891,1.863,1.863,0,0,0,1.857,1.857H17.464V13.75H6.711A.236.236,0,0,1,6.479,13.518Z" transform="translate(325.4 390.25)" fill="#aaa"/>
+    </g>
+    <g id="Item-10" data-name="Item" transform="translate(1312 3792)">
+      <rect id="Bg-14" data-name="Bg" width="369" height="430" fill="#fff" stroke="#e8e8e8" stroke-width="1"/>
+      <rect id="Bg-15" data-name="Bg" width="369" height="310" fill="#e8e8e8"/>
+      <rect id="Add_your_image_here-12" data-name="Add your image here" width="369" height="310" fill="url(#pattern-10)"/>
+      <rect id="Shape-11" data-name="Shape" width="369" height="1" transform="translate(0 374)" fill="#f8f8f8"/>
+      <text id="_50.00-2" data-name="$50.00" transform="translate(73 408)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins" text-decoration="line-through"><tspan x="-53.504" y="0">$50.00</tspan></text>
+      <text id="_30.00-9" data-name="$30.00" transform="translate(155.243 408)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52.88" y="0">$30.00</tspan></text>
+      <text id="Table_Lamp_-_scelerisque_tempore-2" data-name="Table Lamp - scelerisque tempore" transform="translate(20 348.814)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Table Lamp - scelerisque tempore</tspan></text>
+      <path id="Icon_material-add-shopping-cart-3" data-name="Icon material-add-shopping-cart" d="M10.036,8.179h1.857V5.393h2.786V3.536H11.893V.75H10.036V3.536H7.25V5.393h2.786ZM6.321,16.536a1.857,1.857,0,1,0,1.857,1.857A1.855,1.855,0,0,0,6.321,16.536Zm9.286,0a1.857,1.857,0,1,0,1.857,1.857A1.855,1.855,0,0,0,15.607,16.536ZM6.479,13.518l.028-.111.836-1.514h6.918a1.848,1.848,0,0,0,1.625-.956L19.47,4.427l-1.616-.891h-.009L16.824,5.393l-2.563,4.643H7.742l-.121-.251L5.541,5.393,4.659,3.536,3.786,1.679H.75V3.536H2.607L5.95,10.584,4.7,12.859a1.8,1.8,0,0,0-.232.891,1.863,1.863,0,0,0,1.857,1.857H17.464V13.75H6.711A.236.236,0,0,1,6.479,13.518Z" transform="translate(325.4 390.25)" fill="#aaa"/>
+    </g>
+  </g>
+  <g id="Footer" transform="translate(0 -3554)">
+    <g id="Bg-16" data-name="Bg">
+      <g id="Copyright" transform="translate(0 -408)">
+        <rect id="bg-17" data-name="bg" width="1920" height="98" transform="translate(0 8093)" fill="#292929"/>
+        <text id="_2023_bmarketo._All_right_reserved." data-name="© 2023 bmarketo.  All right reserved." transform="translate(814 8148)" fill="#a5a5a5" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0" xml:space="preserve">© 2023 bmarketo.  All right reserved.</tspan></text>
+      </g>
+      <g id="Image">
+        <rect id="bg-18" data-name="bg" width="1920" height="368" transform="translate(0 7316)" fill="#343434"/>
+        <g id="Add_your_image_here-13" data-name="Add your image here" transform="translate(0 7316)">
+          <rect id="Add_your_image_here-14" data-name="Add your image here" width="1920" height="368" fill="url(#pattern-12)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="Subscribe" transform="translate(0 -3682)">
+    <g transform="matrix(1, 0, 0, 1, 0, 3682)" filter="url(#bg-2)">
+      <g id="bg-19" data-name="bg" transform="translate(375 3842)" fill="#fff" stroke="#e1e1e1" stroke-linejoin="round" stroke-width="1">
+        <rect width="1170" height="212" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1169" height="211" fill="none"/>
+      </g>
+    </g>
+    <g id="mail_box" data-name="mail box">
+      <g id="mail_bg" data-name="mail bg">
+        <g id="bg-20" data-name="bg" transform="translate(527 7600)" fill="#fff" stroke="#e1e1e1" stroke-linejoin="round" stroke-width="1">
+          <rect width="866" height="60" rx="30" stroke="none"/>
+          <rect x="0.5" y="0.5" width="865" height="59" rx="29.5" fill="none"/>
+        </g>
+        <text id="Enter_your_mail_here" data-name="Enter your mail here" transform="translate(658 7636)" fill="#838383" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-79.824" y="0">Enter your mail here</tspan></text>
+      </g>
+      <g id="button-2" data-name="button">
+        <rect id="button_bg" data-name="button bg" width="300" height="60" rx="30" transform="translate(1093 7600)" fill="#fa3150"/>
+        <text id="Subscribe_for_newsletter" data-name="Subscribe for newsletter" transform="translate(1243 7636)" fill="#fff" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-108.584" y="0">SUBSCRIBE FOR NEWSLETTER</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g id="Weekly_offer" data-name="Weekly offer" transform="translate(62 161)">
+    <g id="Title-3" data-name="Title" transform="translate(105 1492)">
+      <text id="Top_selling_products_in_this_week" data-name="Top selling products in this week" transform="translate(793 970)" fill="#292929" font-size="30" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-247.275" y="0">Top selling products in this week</tspan></text>
+      <rect id="Shape-12" data-name="Shape" width="98" height="1" transform="translate(744 1010)" fill="#f8f8f8"/>
+    </g>
+    <g id="Arrow" transform="translate(-34 68)">
+      <g id="Arrow-2" data-name="Arrow" transform="translate(-807 1900)">
+        <g id="bg-21" data-name="bg" transform="translate(1747 1011)" fill="#fff" stroke="#292929" stroke-width="1">
+          <rect width="40" height="40" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="39" height="39" rx="4.5" fill="none"/>
+        </g>
+        <path id="Icon_ionic-ios-arrow-forward" data-name="Icon ionic-ios-arrow-forward" d="M9.19,8,5.219,4.031a.747.747,0,0,1,0-1.059.756.756,0,0,1,1.062,0l4.5,4.5A.749.749,0,0,1,10.8,8.5L6.284,13.029A.75.75,0,0,1,5.222,11.97Z" transform="translate(1759.002 1023.246)" fill="#292929"/>
+      </g>
+      <g id="Arrow-3" data-name="Arrow" transform="translate(885 2911)">
+        <g id="bg-22" data-name="bg" fill="#fff" stroke="#292929" stroke-width="1">
+          <rect width="40" height="40" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="39" height="39" rx="4.5" fill="none"/>
+        </g>
+        <path id="Icon_ionic-ios-arrow-forward-2" data-name="Icon ionic-ios-arrow-forward" d="M6.807,8l3.971-3.968a.747.747,0,0,0,0-1.059.756.756,0,0,0-1.062,0l-4.5,4.5A.749.749,0,0,0,5.2,8.5l4.518,4.527a.75.75,0,1,0,1.062-1.059Z" transform="translate(12.002 12.246)" fill="#292929"/>
+      </g>
+    </g>
+    <g id="Items-2" data-name="Items" transform="translate(0 33)">
+      <g id="Item-11" data-name="Item" transform="translate(-62 1430)">
+        <rect id="Bg-23" data-name="Bg" width="270" height="295" transform="translate(375 1100)" fill="#f8f8f8"/>
+        <rect id="Add_your_image_here-15" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-13" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_120.00-2" data-name="$120.00" transform="translate(433 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins" text-decoration="line-through"><tspan x="-57.776" y="0">$120.00</tspan></text>
+        <text id="_80.00-2" data-name="$80.00" transform="translate(494 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-53.552" y="0">$80.00</tspan></text>
+        <text id="Gumshoes_black_fashion-2" data-name="Gumshoes black fashion" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Gumshoes black fashion</tspan></text>
+      </g>
+      <g id="Item-12" data-name="Item" transform="translate(-362 1430)">
+        <rect id="Bg-24" data-name="Bg" width="270" height="295" transform="translate(375 1100)" fill="#f8f8f8"/>
+        <rect id="Add_your_image_here-16" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-14" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_120.00-3" data-name="$120.00" transform="translate(433 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins" text-decoration="line-through"><tspan x="-57.776" y="0">$120.00</tspan></text>
+        <text id="_80.00-3" data-name="$80.00" transform="translate(494 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-53.552" y="0">$80.00</tspan></text>
+        <text id="Apple_watch_series-2" data-name="Apple watch series" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Apple watch series</tspan></text>
+      </g>
+      <g id="Item-13" data-name="Item" transform="translate(238 1430)">
+        <rect id="Add_your_image_here-17" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-15" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_30.00-10" data-name="$30.00" transform="translate(428 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52.88" y="0">$30.00</tspan></text>
+        <text id="Woman_white_dress-2" data-name="Woman white dress" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Woman white dress</tspan></text>
+      </g>
+      <g id="Item-14" data-name="Item" transform="translate(538 1430)">
+        <rect id="Add_your_image_here-18" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-16" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_30.00-11" data-name="$30.00" transform="translate(428 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52.88" y="0">$30.00</tspan></text>
+        <text id="Kettle_water_boiler-2" data-name="Kettle water boiler" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Kettle water boiler</tspan></text>
+      </g>
+      <g id="Item-15" data-name="Item" transform="translate(838 1430)">
+        <rect id="Add_your_image_here-19" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-17" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_30.00-12" data-name="$30.00" transform="translate(428 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52.88" y="0">$30.00</tspan></text>
+        <text id="Congee_cooking_rice_cooker-2" data-name="Congee cooking rice cooker" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Congee cooking rice cooker</tspan></text>
+      </g>
+      <g id="Item-16" data-name="Item" transform="translate(1138 1430)">
+        <rect id="Add_your_image_here-20" data-name="Add your image here" width="270" height="295" transform="translate(375 1100)" fill="url(#pattern-2)"/>
+        <rect id="Shape-18" data-name="Shape" width="270" height="1" transform="translate(375 1475)" fill="#f8f8f8"/>
+        <text id="_30.00-13" data-name="$30.00" transform="translate(428 1455)" fill="#636363" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52.88" y="0">$30.00</tspan></text>
+        <text id="Pizza_tomato_sauce_kebab" data-name="Pizza tomato sauce kebab" transform="translate(375 1428)" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Pizza tomato sauce kebab</tspan></text>
+      </g>
+    </g>
+    <path id="Icon_material-add-shopping-cart-4" data-name="Icon material-add-shopping-cart" d="M8.25,6.75h1.5V4.5H12V3H9.75V.75H8.25V3H6V4.5H8.25Zm-3,6.75A1.5,1.5,0,1,0,6.75,15,1.5,1.5,0,0,0,5.25,13.5Zm7.5,0a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,12.75,13.5ZM5.378,11.063l.023-.09L6.075,9.75h5.588a1.493,1.493,0,0,0,1.313-.773l2.9-5.258L14.565,3h-.007l-.825,1.5-2.07,3.75H6.4l-.1-.2L4.62,4.5,3.907,3,3.2,1.5H.75V3h1.5l2.7,5.693L3.937,10.53a1.45,1.45,0,0,0-.187.72,1.5,1.5,0,0,0,1.5,1.5h9v-1.5H5.565A.191.191,0,0,1,5.378,11.063Z" transform="translate(567 2873)" fill="#aaa"/>
+  </g>
+  <g id="Items-3" data-name="Items" transform="translate(0 -1807)">
+    <g id="Item-17" data-name="Item" transform="translate(398 3915)">
+      <rect id="Bg-25" data-name="Bg" width="369" height="295" transform="translate(375 1100)" fill="#f8f8f8"/>
+      <rect id="Add_your_image_here-21" data-name="Add your image here" width="370" height="295" transform="translate(374 1100)" fill="url(#pattern-19)"/>
+      <rect id="Shape-19" data-name="Shape" width="369" height="1" transform="translate(375 1563)" fill="#f8f8f8"/>
+      <text id="Best_dress_for_everyone_ed_totam_velit_risus_viverra_nobis_donec_recusandae_perspiciatis_incididuno" data-name="Best dress for everyone ed totam velit risus viverra 
+nobis donec recusandae perspiciatis incididuno" transform="translate(375 1481)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Best dress for everyone ed totam velit risus viverra </tspan><tspan x="0" y="24">nobis donec recusandae perspiciatis incididuno</tspan></text>
+      <text id="Table_lamp_1562_LTG_modal" data-name="Table lamp 1562 LTG modal" transform="translate(375 1441)" font-size="20" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Table lamp 1562 LTG modal</tspan></text>
+      <text id="Post_by:_Admin_Comments_13" data-name="Post by: Admin     Comments 13" transform="translate(375 1542)" fill="#b0b0b0" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0" xml:space="preserve">POST BY: ADMIN     COMMENTS 13</tspan></text>
+    </g>
+    <g id="Item-18" data-name="Item" transform="translate(797 3915)">
+      <rect id="Add_your_image_here-22" data-name="Add your image here" width="369" height="295" transform="translate(375 1100)" fill="url(#pattern-20)"/>
+      <rect id="Shape-20" data-name="Shape" width="369" height="1" transform="translate(375 1563)" fill="#f8f8f8"/>
+      <text id="Best_dress_for_everyone_ed_totam_velit_risus_viverra_nobis_donec_recusandae_perspiciatis_incididuno-2" data-name="Best dress for everyone ed totam velit risus viverra 
+nobis donec recusandae perspiciatis incididuno" transform="translate(375 1481)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Best dress for everyone ed totam velit risus viverra </tspan><tspan x="0" y="24">nobis donec recusandae perspiciatis incididuno</tspan></text>
+      <text id="Table_lamp_1562_LTG_modal-2" data-name="Table lamp 1562 LTG modal" transform="translate(375 1441)" font-size="20" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Table lamp 1562 LTG modal</tspan></text>
+      <text id="Post_by:_Admin_Comments_13-2" data-name="Post by: Admin     Comments 13" transform="translate(375 1542)" fill="#b0b0b0" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0" xml:space="preserve">POST BY: ADMIN     COMMENTS 13</tspan></text>
+    </g>
+    <g id="Item-19" data-name="Item" transform="translate(-1 3915)">
+      <rect id="Bg-26" data-name="Bg" width="369" height="295" transform="translate(375 1100)" fill="#f8f8f8"/>
+      <rect id="Add_your_image_here-23" data-name="Add your image here" width="369" height="295" transform="translate(375 1100)" fill="url(#pattern-20)"/>
+      <rect id="Shape-21" data-name="Shape" width="369" height="1" transform="translate(375 1563)" fill="#f8f8f8"/>
+      <text id="Best_dress_for_everyone_ed_totam_velit_risus_viverra_nobis_donec_recusandae_perspiciatis_incididuno-3" data-name="Best dress for everyone ed totam velit risus viverra 
+nobis donec recusandae perspiciatis incididuno" transform="translate(375 1481)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Best dress for everyone ed totam velit risus viverra </tspan><tspan x="0" y="24">nobis donec recusandae perspiciatis incididuno</tspan></text>
+      <text id="Table_lamp_1562_LTG_modal-3" data-name="Table lamp 1562 LTG modal" transform="translate(375 1441)" font-size="20" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Table lamp 1562 LTG modal</tspan></text>
+      <text id="Post_by:_Admin_Comments_13-3" data-name="Post by: Admin     Comments 13" transform="translate(375 1542)" fill="#b0b0b0" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0" xml:space="preserve">POST BY: ADMIN     COMMENTS 13</tspan></text>
+    </g>
+  </g>
+  <g id="Group_4" data-name="Group 4">
+    <path id="cart-shopping-solid" d="M0,.791A.789.789,0,0,1,.791,0h1.5A1.846,1.846,0,0,1,3.958,1.055H17.5a1.317,1.317,0,0,1,1.272,1.661L17.423,7.734a2.376,2.376,0,0,1-2.29,1.756H5.625l.178.939a.794.794,0,0,0,.778.643h9.5a.791.791,0,0,1,0,1.582h-9.5a2.37,2.37,0,0,1-2.33-1.928L2.551,1.8a.262.262,0,0,0-.26-.214H.791A.789.789,0,0,1,0,.791Zm4.218,14.5A1.582,1.582,0,1,1,5.8,16.872,1.582,1.582,0,0,1,4.218,15.29ZM15.29,13.709a1.582,1.582,0,1,1-1.582,1.582A1.582,1.582,0,0,1,15.29,13.709Z" transform="translate(1520.18 41)" fill="#aeaeae"/>
+    <g id="Cart" transform="translate(1522 29.98)">
+      <circle id="Round-2" data-name="Round" cx="8" cy="8" r="8" transform="translate(9 0.02)" fill="#fa3150"/>
+      <text id="_2" data-name="2" transform="translate(14 12.02)" fill="#fff" font-size="10" font-family="Poppins-Regular, Poppins" letter-spacing="0.025em"><tspan x="0" y="0">2</tspan></text>
+    </g>
+  </g>
+</svg>

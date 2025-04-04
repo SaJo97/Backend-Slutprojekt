@@ -1,0 +1,125 @@
+<svg id="Component_8_1" data-name="Component 8 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1923" height="1781" viewBox="0 0 1923 1781">
+  <defs>
+    <filter id="bg_copy_7" x="363" y="250" width="1228" height="1200" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#f8f8f8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="bg" width="43" height="37" transform="translate(0 0.02)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="register">
+    <g id="Group_2" data-name="Group 2" transform="translate(1)">
+      <g id="Featured_Item" data-name="Featured Item" transform="translate(0 15)">
+        <g id="Bg-2" data-name="Bg" transform="translate(0 0)">
+          <rect id="Bg_copy" data-name="Bg copy" width="1920" height="1762" fill="#fff"/>
+        </g>
+        <g id="Contact_" data-name="Contact " transform="translate(407 277)">
+          <g id="Tabs" transform="translate(0 0)">
+            <g id="Reviews" transform="translate(0 0)">
+              <g id="Right_side" data-name="Right side">
+                <g transform="matrix(1, 0, 0, 1, -408, -292)" filter="url(#bg_copy_7)">
+                  <rect id="bg_copy_7-2" data-name="bg copy 7" width="1138" height="1110" transform="translate(408 292)" fill="#fff"/>
+                </g>
+                <g id="Fields" transform="translate(36 37)">
+                  <g id="Button" transform="translate(1 971)">
+                    <rect id="Bg_copy_7-3" data-name="Bg copy 7" width="142" height="50" transform="translate(0 0)" fill="#fa3150"/>
+                    <text id="Submit" transform="translate(70.837 30.728)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI" letter-spacing="0.01em"><tspan x="-25.42" y="0">Submit</tspan></text>
+                  </g>
+                  <text id="Please_Register_Your_new_Account" data-name="Please Register Your new Account" transform="translate(1 17)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Please Register Your new Account</tspan></text>
+                  <rect id="Shape_1" data-name="Shape 1" width="60" height="1" transform="translate(2 27)" fill="#c4c4c4"/>
+                  <g id="Filds" transform="translate(0 56)">
+                    <g id="Save" transform="translate(0 826)">
+                      <text id="I_have_read_and_accepts_the_terms_and_agreements" data-name="I have read and accepts the terms and agreements" transform="translate(21 15)" fill="#636363" font-size="14" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">I have read and accepts the terms and agreements</tspan></text>
+                      <rect id="Round" width="10" height="10" rx="2" transform="translate(0 4)" fill="#c8c8c8"/>
+                    </g>
+                    <g id="Name" transform="translate(1)">
+                      <rect id="Bg_copy_5" data-name="Bg copy 5" width="517" height="50" transform="translate(0 27)" fill="#fafafa"/>
+                      <text id="First_Name_" data-name="First Name*" transform="translate(0 17)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">First Name*</tspan></text>
+                    </g>
+                    <g id="Mail" transform="translate(547)">
+                      <rect id="Bg_copy_6" data-name="Bg copy 6" width="516" height="50" transform="translate(0 27)" fill="#fafafa"/>
+                      <text id="Last_Name_" data-name="Last Name*" transform="translate(0 17)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Last Name*</tspan></text>
+                    </g>
+                    <g id="Name_copy" data-name="Name copy" transform="translate(1 592)">
+                      <rect id="Bg_copy_5-2" data-name="Bg copy 5" width="1062" height="50" transform="translate(0 27)" fill="#fafafa"/>
+                      <text id="Confirm_Password_" data-name="Confirm Password*" transform="translate(0 17)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Confirm Password*</tspan></text>
+                    </g>
+                    <g id="Mail_copy" data-name="Mail copy" transform="translate(0 202)">
+                      <rect id="Bg_copy_6-2" data-name="Bg copy 6" width="516" height="50" transform="translate(0 27)" fill="#fafafa"/>
+                      <text id="Postal_Code_" data-name="Postal Code*" transform="translate(0 17)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Postal Code*</tspan></text>
+                    </g>
+                    <g id="Name_copy-2" data-name="Name copy" transform="translate(1 492)">
+                      <rect id="Bg_copy_5-3" data-name="Bg copy 5" width="1062" height="50" transform="translate(0 27)" fill="#fafafa"/>
+                      <text id="Password_" data-name="Password*" transform="translate(0 17)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Password*</tspan></text>
+                    </g>
+                    <g id="Name_copy-3" data-name="Name copy" transform="translate(1 392)">
+                      <rect id="Bg_copy_5-4" data-name="Bg copy 5" width="1062" height="50" transform="translate(0 27)" fill="#fafafa"/>
+                      <text id="E-mail_" data-name="E-mail*" transform="translate(0 17)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">E-mail*</tspan></text>
+                    </g>
+                    <g id="Name-2" data-name="Name" transform="translate(1 101)">
+                      <rect id="Bg_copy_5-5" data-name="Bg copy 5" width="1062" height="50" transform="translate(0 27)" fill="#fafafa"/>
+                      <text id="Street_Name_" data-name="Street Name*" transform="translate(0 17)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Street Name*</tspan></text>
+                    </g>
+                    <g id="Mail_copy-2" data-name="Mail copy" transform="translate(547 202)">
+                      <rect id="Bg_copy_6-3" data-name="Bg copy 6" width="516" height="50" transform="translate(0 27)" fill="#fafafa"/>
+                      <text id="City_" data-name="City*" transform="translate(0 17)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">City*</tspan></text>
+                    </g>
+                    <g id="Name_copy-4" data-name="Name copy" transform="translate(1 691)">
+                      <rect id="Bg_copy_5-6" data-name="Bg copy 5" width="1062" height="50" transform="translate(0 27)" fill="#fafafa"/>
+                      <text id="Upload_Profile_Image_optional_" data-name="Upload Profile Image (optional)" transform="translate(0 17)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Upload Profile Image (optional)</tspan></text>
+                    </g>
+                    <g id="Name_copy-5" data-name="Name copy" transform="translate(1 299)">
+                      <rect id="Bg_copy_5-7" data-name="Bg copy 5" width="515" height="50" transform="translate(0 27)" fill="#fafafa"/>
+                      <text id="Mobile_optional_" data-name="Mobile  (optional)" transform="translate(0 17)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0" xml:space="preserve">Mobile  (optional)</tspan></text>
+                    </g>
+                    <g id="Name_copy-6" data-name="Name copy" transform="translate(551 299)">
+                      <rect id="Bg_copy_5-8" data-name="Bg copy 5" width="515" height="50" transform="translate(0 27)" fill="#fafafa"/>
+                      <text id="Company_optional_" data-name="Company (optional)" transform="translate(0 17)" fill="#636363" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.01em"><tspan x="0" y="0">Company (optional)</tspan></text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Headers" transform="translate(3 -40)">
+      <g id="Headers_bottom" data-name="Headers bottom" transform="translate(0 40)">
+        <g id="header_button" data-name="header button">
+          <rect id="header_bg" data-name="header bg" width="1920" height="100" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Headers_copy" data-name="Headers copy" transform="translate(352 81.98)">
+        <g id="Hedar_text" data-name="Hedar text" transform="translate(2 -12)">
+          <g id="Logo" transform="translate(-7 -6)">
+            <text id="bmerketo" transform="translate(60.465 36.02)" fill="#1a1a1a" font-size="27" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">bmerketo</tspan></text>
+            <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(21 8)" clip-path="url(#clip-path)">
+              <path id="Icon_simple-bigcartel" data-name="Icon simple-bigcartel" d="M14.217,17.332V16a2.021,2.021,0,0,1,1.167-2L25.715,7.5a2.185,2.185,0,0,0,1-2V0l-12.5,8L1.717,0V16.83a12.224,12.224,0,0,0,5.332,10.5l7,4.5,7-4.5c3.333-2,5.332-5.833,5.332-10.5v-7.5Z" transform="translate(6.84 5.52)"/>
+            </g>
+          </g>
+          <text id="Login" transform="translate(1104 25.02)" fill="#aeaeae" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Login</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Cart" transform="translate(1525 29.98)">
+      <circle id="Round-2" data-name="Round" cx="8" cy="8" r="8" transform="translate(9 0.02)" fill="#fa3150"/>
+      <text id="_2" data-name="2" transform="translate(14 12.02)" fill="#fff" font-size="10" font-family="Poppins-Regular, Poppins" letter-spacing="0.025em"><tspan x="0" y="0">2</tspan></text>
+    </g>
+    <g id="Copyright" transform="translate(0 -6410)">
+      <rect id="bg-3" data-name="bg" width="1920" height="98" transform="translate(0 8093)" fill="#292929"/>
+      <text id="_2023_bmarketo._All_right_reserved." data-name="© 2023 bmarketo.  All right reserved." transform="translate(814 8148)" fill="#a5a5a5" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0" xml:space="preserve">© 2023 bmarketo.  All right reserved.</tspan></text>
+    </g>
+  </g>
+  <g id="Group_7" data-name="Group 7" transform="translate(3)">
+    <path id="cart-shopping-solid" d="M0,.791A.789.789,0,0,1,.791,0h1.5A1.846,1.846,0,0,1,3.958,1.055H17.5a1.317,1.317,0,0,1,1.272,1.661L17.423,7.734a2.376,2.376,0,0,1-2.29,1.756H5.625l.178.939a.794.794,0,0,0,.778.643h9.5a.791.791,0,0,1,0,1.582h-9.5a2.37,2.37,0,0,1-2.33-1.928L2.551,1.8a.262.262,0,0,0-.26-.214H.791A.789.789,0,0,1,0,.791Zm4.218,14.5A1.582,1.582,0,1,1,5.8,16.872,1.582,1.582,0,0,1,4.218,15.29ZM15.29,13.709a1.582,1.582,0,1,1-1.582,1.582A1.582,1.582,0,0,1,15.29,13.709Z" transform="translate(1520.18 41)" fill="#aeaeae"/>
+    <g id="Cart-2" data-name="Cart" transform="translate(1522 29.98)">
+      <circle id="Round-3" data-name="Round" cx="8" cy="8" r="8" transform="translate(9 0.02)" fill="#fa3150"/>
+      <text id="_2-2" data-name="2" transform="translate(14 12.02)" fill="#fff" font-size="10" font-family="Poppins-Regular, Poppins" letter-spacing="0.025em"><tspan x="0" y="0">2</tspan></text>
+    </g>
+  </g>
+</svg>
