@@ -38,7 +38,7 @@ Installera nödvändiga paket för **båda terminaler**:
 
 npm install
 
-Skapa en .env-fil i rotmappen och lägg till dina miljövariabler, inklusive databasanslutning och JWT-hemlighet:
+Skapa en .env-fil i rotmappen(backend) och lägg till dina miljövariabler, inklusive databasanslutning och JWT-hemlighet:
 
 *  PORT=din_PORT
 *  MONGODB_URI=din_mongodb_uri
