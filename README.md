@@ -30,30 +30,22 @@ Klona repositoryt:
 git clone https://github.com/ditt-användarnamn/ditt-repo-namn.git
 cd ditt-repo-namn
 
-Öppna två terminaler: 
-*  Första terminalen skriv: **cd backend** 
-*  Andra terminalen skriv: **cd frontend**
-
-Installera nödvändiga paket för **båda terminaler**:
-
-npm install
-
 Skapa en .env-fil i rotmappen(backend) och lägg till dina miljövariabler, inklusive databasanslutning och JWT-hemlighet:
 
 *  PORT=din_PORT
 *  MONGODB_URI=din_mongodb_uri
 *  ACCESS_TOKEN_SECRET=din_jwt_hemlighet
-*  NODE_ENV = development
+*  NODE_ENV = production
 
-Starta servern för backend:
-1.  **cd backend** - om du inte gjort det innan i backend Terminalen
-2.  **npm run dev**
+Kör detta kommando i terminalen för att installera nödvändiga paket:
+
+npm run build
+
+Starta servern:
+
+npm start
 
 Servern bör nu vara igång på http://localhost:din_PORT/.
-
-Starta servern för frontend:
-1.  **cd frontend** - om du inte gjort det innan i frontend Terminalen
-2.  **npm run dev**
 
 **Användning**
 
