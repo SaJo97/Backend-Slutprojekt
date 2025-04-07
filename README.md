@@ -1,3 +1,5 @@
+**eCommerce REST API**
+
 **Projektbeskrivning**
 
 Detta projekt är en backend-lösning för en e-handelswebbplats, byggd med Node.js och Express. Den är utformad för att hantera produkter, användare och ordrar, och erbjuder en RESTful API för att interagera med databasen. Backend-lösningen är kopplad till en NoSQL-databas (MongoDB) och följer de krav och riktlinjer som anges i uppgiftsbeskrivningen.
@@ -28,20 +30,20 @@ Klona repositoryt:
 git clone https://github.com/ditt-användarnamn/ditt-repo-namn.git
 cd ditt-repo-namn
 
-Installera nödvändiga paket:
-
-npm install
-
-Skapa en .env-fil i rotmappen och lägg till dina miljövariabler, inklusive databasanslutning och JWT-hemlighet:
+Skapa en .env-fil i rotmappen(backend) och lägg till dina miljövariabler, inklusive databasanslutning och JWT-hemlighet:
 
 *  PORT=din_PORT
 *  MONGODB_URI=din_mongodb_uri
 *  ACCESS_TOKEN_SECRET=din_jwt_hemlighet
-*  NODE_ENV = development
+*  NODE_ENV = production
+
+Kör detta kommando i terminalen för att installera nödvändiga paket:
+
+npm run build
 
 Starta servern:
 
-npm run dev
+npm start
 
 Servern bör nu vara igång på http://localhost:din_PORT/.
 
