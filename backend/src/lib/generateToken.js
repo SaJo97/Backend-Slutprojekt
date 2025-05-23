@@ -8,9 +8,10 @@ export const generateToken = (user) => {
         // Payload containing user information
         _id: user._id, // User's unique ID
         email: user.email, // User's email
+        role: user.role
       },
     },
     process.env.ACCESS_TOKEN_SECRET, // Secret key for signing the token from environment variables
-    { expiresIn: "1h" } // Set token expiration time to 1 hour
+    { expiresIn: "15h" } // Set token expiration time to 1 hour
   );
 };

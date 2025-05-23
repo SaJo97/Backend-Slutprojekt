@@ -21,10 +21,12 @@ export const register = createAsyncThunk(
       if (response.status === 201) {
         // store the token in local storage
         localStorage.setItem("token", response.data.token);
+        sessionStorage.setItem("jwt", response.data.token);
         return {
           message: "Registration successful",
           token: response.data.token,
           email: userData.email,
+          role: response.data.role,
         };
       }
     } catch (error) {
@@ -49,13 +51,18 @@ export const login = createAsyncThunk(
       );
 
       // store the token in local storage
-      localStorage.setItem("token", response.data.token);
       console.log("Login successful:", response.data.token);
-      return {
-        message: "Login successful",
-        token: response.data.token,
-        email: userData.email,
-      };
+      
+      if (response.status === 200) {
+        localStorage.setItem("token", response.data.token);
+        sessionStorage.setItem("jwt", response.data.token);
+        return {
+          message: "Login successful",
+          token: response.data.token,
+          email: userData.email,
+          role: response.data.role,
+        };
+      }
     } catch (error) {
       console.error(
         "Login error:",
@@ -71,6 +78,7 @@ export const login = createAsyncThunk(
 const initialState = {
   email: null,
   token: localStorage.getItem("token"),
+  role: null,
   error: null,
   loading: false,
   message: null,
@@ -91,7 +99,9 @@ const authSlice = createSlice({
     logout: (state) => {
       state.email = null; // Clear email
       state.token = null; // Clear token
+      state.role = null;
       localStorage.removeItem("token"); // Remove token from local storage
+      sessionStorage.removeItem("jwt"); // Remove token from local storage
     },
   },
   extraReducers: (builder) => {
@@ -102,6 +112,7 @@ const authSlice = createSlice({
       .addCase(register.fulfilled, (state, action) => {
         state.email = action.payload.email; // Set email on successful registration
         state.token = action.payload.token; // Set token on successful registration
+        state.role = action.payload.role; // Set role on successful registration
         state.error = null; // Clear any previous errors
         state.loading = false; // Set loading to false
         state.message = action.payload.message; // Set success message
@@ -118,6 +129,7 @@ const authSlice = createSlice({
       .addCase(login.fulfilled, (state, action) => {
         state.email = action.payload.email; // Set email on successful login
         state.token = action.payload.token; // Set token on successful login
+        state.role = action.payload.role; // Set role on successful login
         state.error = null; // Clear any previous errors
         state.loading = false; // Set loading to false
         state.message = action.payload.message; // Set success message

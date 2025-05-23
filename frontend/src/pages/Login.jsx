@@ -9,8 +9,8 @@ const Login = () => {
 
   useEffect(() => {
     dispatch(clearError()); // Clear any previous messages when the component mounts
+    dispatch(clearMessage());
   }, [dispatch]);
-  dispatch(clearMessage());
   return (
     <div className="container-reg-from">
       <div className="wrapper">

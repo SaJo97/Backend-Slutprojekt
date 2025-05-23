@@ -21,7 +21,7 @@ const OrderInfo = () => {
   }
 
   if (error) {
-    return <p>Error fetching order details: {error}</p>;
+    return <p>Error fetching order details: {error.message || error}</p>;
   }
 
   if (!order) {

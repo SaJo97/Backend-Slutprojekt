@@ -174,7 +174,7 @@ a.active {
     display: none;
   }
 }
-//Footer
+/*Footer*/
 
 .footer {
 }
@@ -214,7 +214,7 @@ footer {
   font-size: 0.875em;
 }
 
-//loading:
+/*loading:*/
 .loading-container {
   margin-top: 1.25rem; /* mt-5 */
 }
@@ -236,7 +236,7 @@ footer {
   animation: pulse 1.5s infinite; /* animate-pulse */
 }
 
-//error
+/*error*/
 .error-container {
   margin-top: 2.5rem; /* mt-10 */
 }
@@ -297,7 +297,7 @@ footer {
   padding: 10px;
 }
 
-//Form
+/*Form*/
 .space-y-1 > * + * {
   margin-top: 1rem;
 }
@@ -344,7 +344,7 @@ footer {
   flex-direction: column;
 }
 
-//account page:
+/*account page:*/
 .account {
 }
 .account {
@@ -392,7 +392,7 @@ footer {
   background-color: rgb(184, 22, 22);
 }
 
-//order history
+/*order history*/
 .order-container {
 }
 .order-container {
@@ -436,4 +436,24 @@ footer {
 }
 .btn-acc:hover {
   background-color: #333333;
+}
+
+.userbox{
+  text-align: center;
+  font-size: 32px;
+  padding: 20px;
+  
+}
+.user-link{
+  color: black;
+}
+
+.info-user{
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  overflow: auto;
 }

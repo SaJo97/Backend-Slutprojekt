@@ -19,8 +19,15 @@ const OrderItem = ({ order }) => {
       <ul>
         {order.products.slice(0, 3).map((product) => {
           const productDetails = product.productId; // Access the populated product details
+          if (!productDetails) {
+               return (
+                 <li key={product._id}>
+                   <h3>Product details not available - Quantity: {product.quantity}</h3>
+                 </li>
+               );
+             }
           return (
-            <li key={product.productId._id}>
+            <li key={product._id}>
               <h3>
                 {productDetails.name || "Product name not available"} - Quantity: {product.quantity}
               </h3>
@@ -42,6 +49,13 @@ const OrderItem = ({ order }) => {
         {showMore &&
           order.products.slice(3).map((product) => {
             const productDetails = product.productId; // Access the populated product details
+            if (!productDetails) {
+               return (
+                 <li key={product._id}>
+                   <h3>Product details not available - Quantity: {product.quantity}</h3>
+                 </li>
+               );
+             }
             return (
               <li key={product.productId._id}>
                 <h3>

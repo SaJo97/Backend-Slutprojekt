@@ -3,7 +3,7 @@ import useForm from "../hooks/useForm";
 import FormInput from "./FormInput";
 import { login } from "../store/features/auth/authSlice";
 import { useNavigate } from "react-router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const FormLogin = () => {
   const dispatch = useDispatch();
@@ -45,6 +45,12 @@ const FormLogin = () => {
       }
     });
   };
+  // Handle error state from Redux
+  useEffect(() => {
+    if (error) {
+      setFormError(error); // Set the error message from Redux state
+    }
+  }, [error]);
 
   return (
     <form onSubmit={onSubmit} className="login-form space-y-1" noValidate>

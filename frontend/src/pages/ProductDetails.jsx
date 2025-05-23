@@ -2,42 +2,28 @@ import { useParams } from "react-router";
 import "../styles/productDetail.css";
 import { useEffect, useState } from "react";
 import { addToCart } from "../store/shoppingcart/shoppingCartSlice";
-import { useDispatch } from "react-redux";
-import axios from "axios";
+import { useDispatch, useSelector } from "react-redux";
+import { getProduct } from "../store/features/products/productsSlice";
 
 const ProductDetails = () => {
-  const [product, setProduct] = useState(null);
+  const { productId } = useParams();
+  const dispatch = useDispatch();
+  const product = useSelector((state) => state.productList.product);
+  const loading = useSelector((state) => state.productList.loading);
+  const error = useSelector((state) => state.productList.error);
   const [mainImage, setMainImage] = useState("");
   const [images, setImages] = useState([]);
-  const dispatch = useDispatch();
-
-  const { productId } = useParams();
-  const [error, setError] = useState(null);
-  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const getProduct = async () => {
-      setLoading(true);
-      try {
-        const res = await axios.get(
-          `http://localhost:8080/api/products/${productId}`
-        );
-        setProduct(res.data);
-        console.log("Product data:", res.data);
-        if (res.data && res.data.images && res.data.images.length > 0) {
-          setImages(res.data.images);
-          setMainImage(res.data.images[0]);
-        }
-      } catch (error) {
-        setError("Something went wrong!");
-        console.log(error.message);
-      } finally {
-        setLoading(false);
-      }
-    };
+    dispatch(getProduct(productId)); // Fetch product using Redux
+  }, [dispatch, productId]);
 
-    getProduct();
-  }, [productId]);
+  useEffect(() => {
+    if (product) {
+      setImages(product.images);
+      setMainImage(product.images[0]);
+    }
+  }, [product]);
 
   const handleAddToCart = () => {
     dispatch(addToCart(product));

@@ -31,6 +31,9 @@ const ShoppingCart = ({ setIsOpen, isCheckoutPage }) => {
         quantity: item.quantity, 
       })),
     };
+
+  
+
     // Dispatch the createOrder action
     dispatch(createOrder(orderData))
       .unwrap() // Unwrap the promise to handle success/error

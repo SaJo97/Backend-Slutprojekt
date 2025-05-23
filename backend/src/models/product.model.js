@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 // Define the schema for a Product
 const productSchema = new mongoose.Schema(
   {
-    name: { type: String, required: true }, // Name of the product (required)
+    name: { type: String, required: true, unique: true }, // Name of the product (required)
     price: { type: Number, required: true }, // Price of the product (required)
     description: { type: String, required: true }, // Description of the product (required)
     category: { type: String, required: true }, // Category of the product (required)

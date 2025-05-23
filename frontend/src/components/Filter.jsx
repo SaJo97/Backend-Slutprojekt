@@ -1,22 +1,14 @@
-const Filter = ({ selectedCategory, setSelectedCategory }) => {
-  const categoryMap = {
-    All: "All",
-    TV: "TV",
-    "Mobile Phones": "mobiltelefoner",
-    Laptops: "laptop",
-    "Vacuum Cleaners": "dammsugare",
-  };
-
-  const categories = Object.keys(categoryMap);
-
+const Filter = ({ categories, selectedCategory, setSelectedCategory }) => {
   const handleChange = (event) => {
-    setSelectedCategory(categoryMap[event.target.value]);
+    const selectedValue = event.target.value;
+    setSelectedCategory(selectedValue);
   };
 
   return (
     <div className="filter">
       <p>Filter by Category</p>
-      <select value={categoryMap[selectedCategory]} onChange={handleChange}>
+      <select value={selectedCategory} onChange={handleChange}>
+        <option value="All">All</option> {/* Default option */}
         {categories.map((category) => (
           <option key={category} value={category}>
             {category}
@@ -26,4 +18,5 @@ const Filter = ({ selectedCategory, setSelectedCategory }) => {
     </div>
   );
 };
+
 export default Filter;

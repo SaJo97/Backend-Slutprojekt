@@ -13,9 +13,11 @@ const Home = () => {
     dispatch(getProducts());
   }, [dispatch]);
 
-  const { products, error, loading } = useSelector(
+  const { products = [], error, loading } = useSelector(
     (state) => state.productList
   );
+
+  // console.log("Products:", products); // Log the products array
 
   const [selectedCategory, setSelectedCategory] = useState("All");
 
@@ -40,10 +42,12 @@ const Home = () => {
     );
   }
 
+  const categories = Array.from(new Set(products.map(product => product?.category?.toLowerCase()).filter(Boolean))); // Filter out undefined categories
+
   const filteredProducts =
     selectedCategory === "All"
       ? products
-      : products.filter((product) => product.category === selectedCategory);
+      : products.filter((product) => product && product.category && product.category.toLowerCase() === selectedCategory.toLowerCase());
   return (
     <>
       <div className="home-page">
@@ -62,20 +66,27 @@ const Home = () => {
         <h2>Products</h2>
         <div>
           <Filter
+            categories={categories}
             selectedCategory={selectedCategory}
             setSelectedCategory={setSelectedCategory}
           />
         </div>
       </div>
       <div className="products-grid">
-        {filteredProducts.map((product) => (
-          <div key={product._id} className="product-wrapper">
-            <Product
-              product={product}
-              onAddToCart={() => handleAddToCart(product)}
-            />
-          </div>
-        ))}
+        {filteredProducts.length > 0 ? (
+          filteredProducts.map((product) => (
+            product ? (
+              <div key={ product._id} className="product-wrapper">
+                <Product
+                  product={product}
+                  onAddToCart={() => handleAddToCart(product)}
+                />
+              </div>
+            ) : null
+          ))
+        ) : (
+          <p>No products available.</p>
+        )}
       </div>
     </>
   );

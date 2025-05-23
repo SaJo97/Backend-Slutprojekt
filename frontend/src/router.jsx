@@ -11,6 +11,10 @@ import OrderHistory from "./pages/OrderHistory";
 import OrderInfo from "./components/OrderInfo";
 import ProtectedRoute from "./components/ProtectedRoute";
 import NotFound from "./components/NotFound";
+import AdminPage from "./pages/AdminPage";
+import AdminLayout from "./layouts/AdminLayout";
+import UpdateProduct from "./components/UpdateProduct";
+import UserInfo from "./components/UserInfo";
 
 export const router = createBrowserRouter([
   {
@@ -63,6 +67,37 @@ export const router = createBrowserRouter([
             <OrderInfo />
           </ProtectedRoute>
         ),
+      },
+      {
+        path: "admin",
+        element: <AdminLayout />,
+        children: [
+          {
+            index: true,
+            element: 
+            (
+            <ProtectedRoute requiredRole="admin">
+              <AdminPage />
+            </ProtectedRoute>
+            ),
+          }
+        ]
+      },
+      {
+        path: "update/:productId",
+        element: (
+          <ProtectedRoute>
+            <UpdateProduct />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "admin/users",
+        element: (
+          <ProtectedRoute>
+            <UserInfo />
+          </ProtectedRoute>
+        )
       },
       {
         path: "*", // Catch-all route for unknown paths

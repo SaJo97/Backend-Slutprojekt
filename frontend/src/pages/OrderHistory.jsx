@@ -16,7 +16,7 @@ const OrderHistory = () => {
   }
 
   if (error) {
-    return <p>Error fetching orders: {error}</p>;
+    return <p>Error fetching orders: {error.message || error}</p>;
   }
 
   return (

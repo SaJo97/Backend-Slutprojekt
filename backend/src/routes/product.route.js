@@ -6,17 +6,19 @@ import {
   getProduct,
   updateProduct,
 } from "../controllers/product.controller.js";
+import { verifyRoles, verifyToken } from "../middleware/auth.middleware.js";
+import ROLES from "../constants/roles.js";
 
 const router = express.Router();
 
-router.post("/", createNewProduct); // CREATE
+router.post("/", verifyToken, verifyRoles(ROLES.ADMIN), createNewProduct); // CREATE
 
 router.get("/", getAllProducts); // READ
 router.get("/:id", getProduct); // READ BY ID
 
-router.put("/:id", updateProduct); // UPDATE
-router.patch("/:id", updateProduct); // UPDATE
+router.put("/:id", verifyToken, verifyRoles(ROLES.ADMIN), updateProduct); // UPDATE
+router.patch("/:id", verifyToken, verifyRoles(ROLES.ADMIN), updateProduct); // UPDATE
 
-router.delete("/:id", deleteProduct); // DELETE
+router.delete("/:id", verifyToken, verifyRoles(ROLES.ADMIN), deleteProduct); // DELETE
 
 export default router;

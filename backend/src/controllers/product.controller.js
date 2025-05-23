@@ -60,9 +60,19 @@ export const updateProduct = asyncHandler(async (req, res) => {
   const { id } = req.params;
   const { name, price, description, category, images } = req.body; // Destructure request body
 
+  console.log("Incoming request body:", req.body);
+
   // Check if the ID is valid
   if (!mongoose.isValidObjectId(id)) {
     return res.status(400).json({ message: "Invalid product-ID" });
+  }
+
+  // Check if the product name is unique
+  if (name) {
+    const existingProduct = await Product.findOne({ name: name, _id: { $ne: id } }); // Find a product with the same name but different ID
+    if (existingProduct) {
+      return res.status(400).json({ message: "Product name must be unique." });
+    }
   }
 
   const toUpdate = {}; // Object to hold fields to update
@@ -93,16 +103,22 @@ export const updateProduct = asyncHandler(async (req, res) => {
 export const deleteProduct = asyncHandler(async (req, res) => {
   const { id } = req.params;
 
+  console.log("Attempting to delete product with ID:", id);
+
   // Check if the ID is valid
   if (!mongoose.Types.ObjectId.isValid(id)) {
     return res.status(400).json({ message: "Invalid product-ID" });
   }
-
-  const product = await Product.findByIdAndDelete(id).exec(); // Attempt to delete the product by ID
-
-  // Check if the product was found and deleted
-  if (!product) {
-    return res.status(404).json({ message: `Can't find that product` });
+  try {
+    const product = await Product.findByIdAndDelete(id).exec(); // Attempt to delete the product by ID
+    // Check if the product was found and deleted
+    if (!product) {
+      return res.status(404).json({ message: `Can't find that product` });
+    }
+    console.log("Product deleted successfully:", product);
+    res.sendStatus(204);
+  } catch (error) {
+    console.error("Error deleting product2:", error); // Log the error
+    res.status(500).json({ message: "An error occurred while deleting the product." });
   }
-  res.sendStatus(204);
 });

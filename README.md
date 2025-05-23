@@ -20,6 +20,9 @@ Backend-lösningen erbjuder följande funktioner:
 *  Logga in användare: Användare kan logga in och få tillbaka en JWT.
 *  Orderhantering: Inloggade användare kan spara ordrar i databasen, där varje order innehåller en array av produkter.
 *  Orderhistorik: Användare kan hämta sina tidigare lagda ordrar med en GET-förfrågan, där varje order innehåller detaljerad produktinformation.
+*  Hämta och hantera alla användare
+*  Uppdatera användar roll
+*  Ta bort användare
 
 **Installation**
 

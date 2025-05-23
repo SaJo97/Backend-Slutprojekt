@@ -9,6 +9,7 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const { role } = useSelector((state) => state.auth);
 
   const closeMenu = () => {
     setIsOpen(false);
@@ -42,6 +43,16 @@ const Navbar = () => {
           </li>
 
           {token ? (
+            <>
+            {role === 'admin' && <li>
+                <NavLink
+                  className="nav-link nav-hide"
+                  to="/admin"
+                  onClick={closeMenu}
+                >
+                  Admin
+                </NavLink>
+              </li>}
             <li>
               <NavLink
                 className="nav-link nav-hide"
@@ -51,6 +62,7 @@ const Navbar = () => {
                 Account
               </NavLink>
             </li>
+            </>
           ) : (
             <li>
               <NavLink
@@ -86,11 +98,19 @@ const Navbar = () => {
             </NavLink>
           </li>
           {token ? (
+            <>
+            { role === 'admin' && <li>
+                <NavLink className="nav-link" to="/admin" onClick={closeMenu}>
+                  Admin
+                </NavLink>
+              </li>
+              }
             <li>
               <NavLink className="nav-link" to="/account" onClick={closeMenu}>
                 Account
               </NavLink>
             </li>
+            </>
           ) : (
             <li>
               <NavLink className="nav-link" to="/login" onClick={closeMenu}>
