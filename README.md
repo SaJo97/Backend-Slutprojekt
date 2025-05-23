@@ -67,6 +67,9 @@ API:et kan nås via följande endpoints:
 *  GET /order - Hämta orderhistorik
 *  GET /order/:orderId - Hämta specifik order i orderhistorik
 *  POST /order/guest - Gör en order, men sparas inte i API för ej inloggda
+*  GET /auth/users - Hämta alla användare
+*  DELETE /auth/users/:id - Ta bort en användare
+*  PUT /auth/users/:id/role - Uppdatera en användares roll
 
 **Källor för använda produkter**
 
