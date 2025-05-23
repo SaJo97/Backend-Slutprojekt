@@ -452,7 +452,7 @@ footer {
   background-color: #fff;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  width: auto;
   max-width: 800px;
   border-radius: 8px;
   overflow: auto;
